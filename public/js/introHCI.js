@@ -15,6 +15,6 @@ function initializePage() {
 
 function analytics(e) {
 	e.preventDefault();
-
+  console.log("Call ga");
 	ga("send", "event", "like", "click");
 }
